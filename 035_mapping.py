@@ -35,6 +35,11 @@ print("Function: add_one_hundred_to_numbers")
 
 # Return a new list of each number with 100 added
 def add_one_hundred_to_numbers(numbers):
+  res = []
+  for n in numbers:
+    n += 100
+    res.append(n)
+  return res
   pass
 
 check_that_these_are_equal(
