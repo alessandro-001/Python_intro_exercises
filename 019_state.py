@@ -9,7 +9,7 @@ print(f"a is {a}")
 print(f"b is {b}")
 
 # @TASK: What does that output? And why? Take a guess, then run the code and
-# see.
+# see. 20 20
 
 # Was it what you expected?
 

@@ -36,13 +36,35 @@ def add_one(num):
 #
 # I've started it for you.
 
-# Addition
-added = 2 + 3
-print(f"2 + 3 = {added} (should be 5)")
+# # Addition
+# added = 2 + 3
+# print(f"2 + 3 = {added} (should be 5)")
 
-# Multiplication
-multiplied = 2 * 3
-print(f"2 * 3 = {multiplied} (should be 6)")
+# # Multiplication
+# multiplied = 2 * 3
+# print(f"2 * 3 = {multiplied} (should be 6)")
+
+# # Subtraction
+# subtract = 2 - 3
+# print(f"2 - 3 = {subtract} (should be -1)")
+
+# # Division
+# divided = 2 / 3
+# print(f"2 / 3 = {divided} (should be 0.666..)")
+
+# # Modulus
+# modulo = 2 % 3
+# print(f"2 % 3 = {modulo} (should be 2)")
+
+# # exponent
+# expo = 2 ** 3
+# print(f"2 ** 3 = {expo} (should be 8)")
+
+# # Floor div
+# floor = 2 // 3
+# print(f"2 // 3 = {floor} (should be 0)")
+
+
 
 # @TASK: For each section below:
 #
@@ -53,13 +75,13 @@ print(f"2 * 3 = {multiplied} (should be 6)")
 
 # == Subtraction ==
 
-# subtracted = 2 ? 3
-# print(f"2 ? 3 = {subtracted} (should be -1)")
+subtracted = 2 - 3
+print(f"2 - 3 = {subtracted} (should be -1)")
 
 # == Division ==
 
-# divided = 2 ? 3
-# print(f"2 ? 3 = {divided} (should be 0.6666666666666666)")
+divided = 2 / 3
+print(f"2 ? 3 = {divided} (should be 0.6666666666666666)")
 
 # This kind of 'decimal point' number, 0.6666666666666666 is called a float, by
 # the way, meaning 'floating point'.
