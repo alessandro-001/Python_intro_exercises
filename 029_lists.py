@@ -21,11 +21,11 @@ my_friends = ["Victoria", "Mel", "Melanie", "Emma"]
 
 # @TASK Try making your own here:
 
-your_list = ...
+your_list = ['rock', "metal"]
 print(your_list)
 
 # @TASK and print it out by running:
 
-#   python 029_lists.py
+#   python3 029_lists.py
 
 # When you're done, move on to 030_list_indexing.py
