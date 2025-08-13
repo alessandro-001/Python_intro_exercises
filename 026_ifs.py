@@ -29,7 +29,7 @@ if leaves_on_the_tree == 0:
 
 # We can also have an `else` to cover the other case:
 
-if leaves_on_the_tree == 0:
+if leaves_on_the_tree == 5:
   print("It must be winter — or a dead tree")
 else:
   print("This is a happy tree with nice leaves")
@@ -49,7 +49,10 @@ print("Function: is_first_of_the_month")
 def is_first_of_the_month(day_number):
   # Return "First of the month!" if the day number is 1.
   # Return "Not first of the month" otherwise.
-  pass
+  if day_number == 1:
+    return ("First of the month!")
+  else:
+    return ("Not first of the month")
 
 check_that_these_are_equal(
   is_first_of_the_month(1),
@@ -70,7 +73,10 @@ def has_five_chars(the_str):
   # Return "STRING is five characters long" if the string is five characters
   # long.
   # Otherwise, return "Not five characters".
-  pass
+  if the_str.len() == 5:
+    return "STRING is five characters long"
+  else:
+    return "Not five characters"
 
 check_that_these_are_equal(
   has_five_chars("ABCDE"),
